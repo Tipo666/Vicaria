@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Vicaria de Pastoral" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Documentos" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Consejo Diocesano de Pastoral" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Zonas Pastorales" />
+    </group>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Cerrar Sesión" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Sobre la aplicación" />
+        </menu>
+    </item>
+
+</menu>

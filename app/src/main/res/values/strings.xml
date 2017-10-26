@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vicaria de Pastoral</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_pantalla_principal">PantallaPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_navegacion">Página Principal</string>
+
+    <string name="Vicaria_Pastoral">Obispado
+Oficina Diocesana                                                                                                                 Tel.: 809-573-2201
+Apartado Postal 27                                                                                                                          809-573-2601
+C/ Sánchez Esq. Leoncio Ramos                                                                                                    809-242-0311
+Provincia La Vega                                                                                                                   Fax: 809-573-6303
+</string>
+
+</resources>

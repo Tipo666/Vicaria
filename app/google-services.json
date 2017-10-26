@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "983880899245",
+    "firebase_url": "https://vicaria-88f4d.firebaseio.com",
+    "project_id": "vicaria-88f4d",
+    "storage_bucket": "vicaria-88f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983880899245:android:e911b1242bdc725c",
+        "android_client_info": {
+          "package_name": "com.tipo666.vicaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983880899245-gpsv1ahhskdlnaqbvnl077p2lgjpn6e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdJHBYM-yz86Lq6eakNGi_0tLO8Cc6XQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
