@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/vicaria_pastoral"
             android:title="Vicaria de Pastoral" />
-        
-        <item
-            android:id="@+id/nav_gallery"
-
-            android:title="Documentos" />
         <item
             android:id="@+id/nav_slideshow"
-
             android:title="Consejo Diocesano de Pastoral" />
         <item
             android:id="@+id/nav_manage"
-
             android:title="Zonas Pastorales" />
+        <item
+            android:id="@+id/parroquias"
+            android:title="Parroquias" />
+        <item
+            android:id="@+id/comisiones_pastorales"
+            android:title="Comisiones Pastorales" />
+        <item
+            android:id="@+id/movimientos_eclesiasticos"
+            android:title="Movimientos Eclesiásticos" />
+        <item
+            android:id="@+id/movimientos_asesores"
+            android:title="Movimientos y Asesores" />
+        <item
+            android:id="@+id/congregaciones_religiosas"
+            android:title="Congregaciones Religiosas" />
+        <item
+            android:id="@+id/instituciones_eclesiales"
+            android:title="Instituciones Eclesiales" />
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Documentos" />
+        <item
+            android:id="@+id/eventos"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/noticias"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/informaciones_generales"
+            android:title="Informaciones Generales" />
+
     </group>
 
     <item android:title="Aplicación">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/cerrar_sesion"
 
                 android:title="Cerrar Sesión" />
             <item

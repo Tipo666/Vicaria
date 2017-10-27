@@ -40,7 +40,7 @@ public class Registro extends AppCompatActivity implements View.OnClickListener{
         //initializing firebase auth object
         firebaseAuth = FirebaseAuth.getInstance();
 
-        /*
+
         //if getCurrentUser does not returns null
         if(firebaseAuth.getCurrentUser() != null){
             //that means user is already logged in
@@ -48,9 +48,9 @@ public class Registro extends AppCompatActivity implements View.OnClickListener{
             finish();
 
             //and open profile activity
-            startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            startActivity(new Intent(getApplicationContext(), Navegacion.class));
         }
-        */
+
 
         //initializing views
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
@@ -126,5 +126,12 @@ public class Registro extends AppCompatActivity implements View.OnClickListener{
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        finish();
     }
 }

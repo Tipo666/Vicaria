@@ -27,16 +27,23 @@ Apartado Postal 27                                                              
 C/ Sánchez Esq. Leoncio Ramos                                                                                                    809-242-0311
 Provincia La Vega                                                                                                                   Fax: 809-573-6303
 </string>
+
+    <string name="consejo"> Miembros del consejo:
+
+    </string>
     
     <string name="consejo_dioscesano_pastoral">
-        <b>Miembros del consejo:</b>
         <u>
-            Sr. Obispo: Mons. Rafael Rodríguez.
+            Sr. Obispo: Mons. Rafael Rodríguez.</u>
+
             Vicario General: P. Francisco Almonte.
+
             Vicario de Pastoral: P. Francisco Antonio Jiménez Rosario.
+
             Vicario Adjunto de Pastoral: P. Pablo Santos.
+
             Rector del Seminario: P. Tomás Florentino.
-        </u>
+
     </string>
 
 </resources>

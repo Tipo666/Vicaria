@@ -41,12 +41,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //if the objects getcurrentuser method is not null
         //means user is already logged in
-       // if(firebaseAuth.getCurrentUser() != null){
+       if(firebaseAuth.getCurrentUser() != null){
             //close this activity
-           // finish();
+            finish();
             //opening profile activity
-          //  startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
-       // }
+           startActivity(new Intent(getApplicationContext(), Navegacion.class));
+       }
 
 
         //initializing views
@@ -87,6 +87,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         progressDialog.setMessage("Ingresando por favor espere...");
         progressDialog.show();
 
+
         //logging in the user
         firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -121,5 +122,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             finish();
             startActivity(new Intent(this, Registro.class));
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        finish();
     }
 }
