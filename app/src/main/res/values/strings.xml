@@ -31,19 +31,37 @@ Provincia La Vega                                                               
     <string name="consejo"> Miembros del consejo:
 
     </string>
-    
-    <string name="consejo_dioscesano_pastoral">
-        <u>
-            Sr. Obispo: Mons. Rafael Rodríguez.</u>
 
-            Vicario General: P. Francisco Almonte.
+    <string name="vicariapastoral"><b>
+        <u>Vicario de pastoral:</u>\n\n <i>P. Francisco Antonio Jiménez.\n\n</i>
+        <u>Vicario Adjunto:</u>\n\n <i>P. Pablo Santos Díaz.\n\n</i>
+        <u>Secretaria:</u>\n\n <i>Licda. Nélsida María Guerrero M.</i>  </b></string>
 
-            Vicario de Pastoral: P. Francisco Antonio Jiménez Rosario.
+    <string name="consejo_dioscesano_pastoral"><b>
 
-            Vicario Adjunto de Pastoral: P. Pablo Santos.
+           <u> MIEMBROS DEL CONSEJO:</u> \n\n
 
-            Rector del Seminario: P. Tomás Florentino.
+           <u>Sr. Obispo:</u>\n\n Mons. Rafael Rodríguez. \n\n
+
+           <u> Vicario General:</u>\n\n P. Francisco Almonte. \n\n
+
+           <u> Vicario de Pastoral:</u>\n\n P. Francisco Antonio Jiménez Rosario.\n\n
+
+           <u> Vicario Adjunto de Pastoral:</u>\n\n P. Pablo Santos.\n\n
+
+            <u>Rector del Seminario:</u>\n\n P. Tomás Florentino.</b>
 
     </string>
+
+    <string name="zonaspastorales">
+        <b><u>ENCARGADOS ZONALES: </u> \n\n
+       <u> ZONA “A” LA VEGA.</u> \n\n      <i>P. Francisco Ant. Jiménez</i>\n\n
+        <u>ZONA “B” LA VEGA.</u> \n\n     <i> P.   Michel Rosario Vargas</i>\n\n
+       <u> ZONA “C”  BONAO.</u> \n\n       <i> P. Ambiorix Tolentino </i>\n\n
+       <u> ZONA “D”  COTUÍ.</u> \n\n     	<i>P. Eduardo Hernández Vera</i>\n\n
+       <u> ZONA “E”   SALCEDO.</u> \n\n  <i>P. Isidro Bautista Sánchez</i>\n\n
+       <u> ZONA “F”   CONSTANZA.</u> \n\n <i> P. Rafael  Mendoza.</i></b>\n\n
+
+</string>
 
 </resources>

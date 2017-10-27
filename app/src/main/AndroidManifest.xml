@@ -28,7 +28,19 @@
             android:name=".Navegacion"
             android:label="@string/title_activity_navegacion"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".VicariaActivity"></activity>
+        <activity android:name=".VicariaActivity" />
+        <activity android:name=".ConsejoDioscesanoPastoral" />
+        <activity android:name=".ZonasPastorales" />
+        <activity android:name=".Parroquias" />
+        <activity android:name=".ComisionesPastorales" />
+        <activity android:name=".MovimientosEclesiasticos" />
+        <activity android:name=".MovimientosAsesores" />
+        <activity android:name=".CongregacionesReligiosas" />
+        <activity android:name=".InstitucionesEclesiales" />
+        <activity android:name=".Documentos" />
+        <activity android:name=".Eventos" />
+        <activity android:name=".Noticias" />
+        <activity android:name=".InformacionesGenerales"></activity>
     </application>
 
 </manifest>

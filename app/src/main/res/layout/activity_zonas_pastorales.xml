@@ -4,26 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tipo666.vicaria.VicariaActivity">
+    tools:context="com.tipo666.vicaria.ZonasPastorales">
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="495dp"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="0dp">
-
         <TextView
             android:layout_width="368dp"
             android:layout_height="427dp"
-            android:text="@string/vicariapastoral"
+            android:text="@string/zonaspastorales"
+
             android:textIsSelectable="false"
             android:textSize="25dp"
             android:inputType="textMultiLine"
             tools:layout_editor_absoluteY="0dp"
             tools:layout_editor_absoluteX="8dp"
             tools:ignore="MissingConstraints" />
+
     </ScrollView>
-
-
 
 </android.support.constraint.ConstraintLayout>

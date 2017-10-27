@@ -29,7 +29,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     //our new views
     private EditText editTextName, editTextAddress;
     private Button buttonSave;
-    private Button btnIrSelectorFotos;
 
 
     @Override
@@ -45,8 +44,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         editTextName = (EditText) findViewById(R.id.editTextName);
         buttonSave = (Button) findViewById(R.id.buttonSave);
 
-        btnIrSelectorFotos = (Button) findViewById(R.id.btnIrSelectorArchivo);
-        btnIrSelectorFotos.setOnClickListener(this);
+
 
         buttonSave.setOnClickListener(this);
 
@@ -70,7 +68,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         buttonLogout = (Button) findViewById(R.id.buttonLogout);
 
         //displaying logged in user name
-        textViewUserEmail.setText("Welcome "+user.getEmail());
+        textViewUserEmail.setText("Hola "+user.getEmail());
 
         //adding listener to button
         buttonLogout.setOnClickListener(this);
@@ -98,7 +96,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         databaseReference.child(user.getUid()).setValue(userInformation);
 
         //Desplegamos el Toast con la informacin guardada
-        Toast.makeText(this, "Information Saved...", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Información almacenada...", Toast.LENGTH_LONG).show();
     }
 
     @Override

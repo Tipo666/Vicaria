@@ -27,33 +27,28 @@
             android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your full name" />
+            android:hint="Ingrese su nombre " />
 
 
         <EditText
             android:id="@+id/editTextAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Address" />
+            android:hint="Ingrese su direaccion" />
 
         <Button
             android:id="@+id/buttonSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Save Information" />
+            android:text="Guardar Información" />
 
-        <Button
-            android:id="@+id/btnIrSelectorArchivo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ir a Selector de fotos"/>
 
         <Button
             android:id="@+id/buttonLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Logout" />
+            android:text="Cerrar Sesión" />
     </LinearLayout>
 
 </RelativeLayout>

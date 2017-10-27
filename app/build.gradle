@@ -7,7 +7,7 @@ android {
         applicationId "com.tipo666.vicaria"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 2
+        versionCode 3
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -36,6 +36,18 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
     testCompile 'junit:junit:4.12'
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

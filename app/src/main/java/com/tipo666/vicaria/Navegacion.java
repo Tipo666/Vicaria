@@ -77,7 +77,12 @@ public class Navegacion extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            if(firebaseAuth.getCurrentUser() != null){
+                //close this activity
+                finish();
+                //opening profile activity
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
         }
 
         return super.onOptionsItemSelected(item);
@@ -94,9 +99,11 @@ public class Navegacion extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.consejo_dioscesano_pastoral) {
+            startActivity(new Intent(this, ConsejoDioscesanoPastoral.class));
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.zonas_pastorales) {
+            startActivity(new Intent(this, ZonasPastorales.class));
 
         } else if (id == R.id.cerrar_sesion) {
             //logging out the user
@@ -106,7 +113,7 @@ public class Navegacion extends AppCompatActivity
             //starting login activity
             startActivity(new Intent(this, LoginActivity.class));
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.sobre_aplicacion) {
 
         }
 
